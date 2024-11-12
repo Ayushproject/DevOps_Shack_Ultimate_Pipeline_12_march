@@ -39,6 +39,9 @@ Then, you can run the script using:
 
 ```bash
 ./install_docker.sh
+sudo groupadd docker
+sudo usermod -aG docker $USER
+docker ps
 ```
 
 ## Create Nexus using docker container
